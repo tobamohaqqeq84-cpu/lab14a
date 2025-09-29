@@ -27,4 +27,11 @@ void print() const{
   cout << "Color(R:  " << setw(3) << red << ", G: " << setw(3) << green << ", B: " << setw(3) << blue << ")" << endl;
        
 }
-}
+};
+     int main() {
+       color c1, c2, c3;
+
+       c1.setRed(255); c1.setGreen(0); c1.setBlue(0);
+       c2.setRed(0); c2.setGreen(255); c2.setBlue(0);
+       c3.set
+     }
