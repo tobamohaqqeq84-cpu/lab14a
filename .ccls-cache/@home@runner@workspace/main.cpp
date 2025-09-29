@@ -31,7 +31,16 @@ void print() const{
      int main() {
        color c1, c2, c3;
 
-       c1.setRed(255); c1.setGreen(0); c1.setBlue(0);
-       c2.setRed(0); c2.setGreen(255); c2.setBlue(0);
-       c3.set
+       c1.setRed(255); c1.setGreen(0); c1.setBlue(0); //red
+       c2.setRed(0); c2.setGreen(255); c2.setBlue(0); //green
+       c3.setRed(0); c3.setGreen(0); c3.setBlue(255); //blue
+
+
+       //output
+       c1.print();
+       c2.print();
+       c3.print();
+
+
+            return 0;
      }
